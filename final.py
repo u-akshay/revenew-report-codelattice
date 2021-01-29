@@ -200,7 +200,7 @@ def generate():
         line +=2
         pdf.cell(200,10, txt = " ", ln = line)
 
-    pdf.output("Revenew.pdf")
+    pdf.output("Revenue.pdf")
 
 
 
