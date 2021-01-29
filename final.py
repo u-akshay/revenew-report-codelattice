@@ -148,27 +148,16 @@ def generate():
     #RESULTS
     print("RESULTS:")
     print("__________________________________________")
-    print("Employee Revenew:")
+    print("Employee Revenue:")
     for i in range(len(employee_name)):
         print(employee_name[i] , " \t: " , employee_cost[i])
 
     print("__________________________________________")    
     print("Project :")
-    print("project name \t actual revenew \t profit\loss")
+    print("project name \t actual revenue \t profit\loss")
     for i in range(len(project_actual_cost)):
         print(project_name_list[i],"\t",project_actual_cost[i],"\t\t",profit_or_loss[i])
     
-
-    ###
-    output = ""
-    output += "RESULTS: <br> Employee Revenew: <br>"
-    for i in range(len(employee_name)):
-        output += str(employee_name[i]) + " \t: "  + str(employee_cost[i]) + "\n"
-    output += "__________________________________________ \n Project: \n project name \t actual revenew \t profit\loss \n"
-    for i in range(len(project_actual_cost)):
-        output += str(project_name_list[i]) + "\t" + str(project_actual_cost[i]) + "\t\t" + str(profit_or_loss[i])
-
-    # print(output)
 
     #####
     pdf = FPDF()
@@ -177,7 +166,7 @@ def generate():
     pdf.set_font("Arial", size = 25) 
     pdf.cell(200, 10, txt = "RESULTS", ln = 1, align = 'C') 
     pdf.set_font("Arial", size = 20) 
-    pdf.cell(200, 10, txt = "Employee Revenew", ln = 2)
+    pdf.cell(200, 10, txt = "Employee Revenue", ln = 2)
 
     pdf.set_font("Arial", size = 15) 
     for i in range(len(employee_name)):
@@ -196,7 +185,7 @@ def generate():
         pdf.cell(200,10, txt = str(zz), ln = line)
         line +=1
         
-        zz = "         Actual Revenew: " + str(project_actual_cost[j])
+        zz = "         Actual Revenue: " + str(project_actual_cost[j])
         pdf.cell(200,10, txt = str(zz), ln = line)
         line +=1
         
