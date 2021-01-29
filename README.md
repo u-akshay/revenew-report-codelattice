@@ -25,7 +25,8 @@ I had change the errors manually inside the code.
 
 ### Output example
 The main output is the `pdf` file generating automatically as `Revenew.pdf`. <br>
-The uploaded `.xlsx` files are storing in `static` folder as "pd.xlsx" and "et.xlsx".
+The uploaded `.xlsx` files are storing in `static` folder as "pd.xlsx" and "et.xlsx".<br>
+You can delete those files but delete the folders.
 
 
 
