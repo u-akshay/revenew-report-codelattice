@@ -1,8 +1,8 @@
-# Revenew report for codelattice
+# Revenue Report for codelattice
 Akshay U
 
 ## Introduction
-Its a flask webapp to calculate the revenew of employees and the cost of a project with the info of profit or loss.
+Its a flask webapp to calculate the revenue of employees and the cost of a project with the info of profit or loss.
 
 
 ## Libraries
@@ -24,7 +24,7 @@ I had change the errors manually inside the code.
 
 
 ### Output example
-The main output is the `pdf` file generating automatically as `Revenew.pdf`. <br>
+The main output is the `pdf` file generating automatically as `Revenue.pdf`. <br>
 The uploaded `.xlsx` files are storing in `static` folder as "pd.xlsx" and "et.xlsx".<br>
 You can delete those files but delete the folders.
 
