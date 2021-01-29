@@ -30,6 +30,7 @@ The uploaded `.xlsx` files are storing in `static` folder as "pd.xlsx" and "et.x
 
 
 ## Working
-Download the entire repository. <br>
-Install `requirements.txt` using `pip install -r requirements.txt` or install each libraries using pip.<br>
-Run `app.py`.
+Follow the steps below
+  1. Download the entire repository. <br>
+  2. Install `requirements.txt` using `pip install -r requirements.txt` or install each libraries using pip.<br>
+  3. Run `app.py`.
