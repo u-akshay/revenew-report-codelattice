@@ -22,7 +22,7 @@ def login():
         b.save(os.path.join("static", "et.xlsx"))
 
         final.generate()
-        p = "Revenew.pdf"
+        p = "Revenue.pdf"
         return send_file(p,as_attachment=True)
         # return render_template('index.html', message="upload now")
     
